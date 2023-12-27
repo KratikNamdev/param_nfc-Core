@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Param Cards</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="main">
+            <div class="banner">
+<img src="./Assets/100px X100px JPEG File.jpg">
+            </div>
+
+
+
+
+
+           <div class="profile-section">
+            <div class="profile">
+
+<!-- PROFILE IMAGE -->
+
+
+                <img src="./Assets/100px X100px JPEG File.jpg">
+    
+            </div>
+            <br/>
+
+
+<!-- NAME -->
+            <h2>Dhruv Pathak</h2>
+
+            <!-- WORK -->
+
+
+            <h3>PROPRIETOR</h3>
+
+
+            <!-- DESCRIPTION -->
+
+
+
+            <h4>PARAM CARDS AND PRINTS</h4>
+
+           </div>
+           <br/>
+           <br/>
+
+<div class="social sol">
+    <div class="cal">
+
+
+
+        <!-- CALLING NUMBER -->
+
+
+       <a href="tel:+919406655515"> <img src="./Assets/call.jpg" alt=""></a>
+        <p>Call</p>
+    </div>
+    <div class="cal">
+
+        <!-- SMS NUMBER -->
+
+
+        <a href="sms:+919406655515">  <img src="./Assets/sms.jpg" alt=""></a>
+        <p>SMS</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- EMAIL ID -->
+
+        <a href="mailto:defaultpropss@gmail.com">  
+              <img src="./Assets/e mail.jpg" alt="">
+        </a>
+
+        <p>E-mail</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- WEBSITE-->
+
+        <a href="https://www.defaultprops.com/">   <img src="./Assets/website.jpg" alt="">      </a>
+        <p>Website</p>
+    </div>
+
+</div>
+<br/>
+
+<div class="social">
+    <div class="cal">
+
+
+        <!-- LOCATION -->
+
+        <a href="https://www.google.com/maps/place/Default+Props/@22.7360493,75.8320931,17z/data=!3m1!4b1!4m6!3m5!1s0xd026f491d5e5c6f:0x534dc638f12e804b!8m2!3d22.7360493!4d75.834668!16s%2Fg%2F11v6x12lx1?entry=ttu">
+            <img src="./Assets/location.jpg" alt=""></a>
+        <p>Location</p>
+    </div>
+    <div class="cal save">
+
+
+        <!-- SAVE CONTACT -->
+
+        <a href="./Assets/contacts.csv">  <img src="./Assets/save contact.jpg" alt=""></a>
+        <p>SAVE<br/>CONTACT</p>
+    </div>
+
+    <div class="cal">
+        <!-- PAYEMNT -->
+
+
+        <!-- <a href="">   <img src="./Assets/Payment.png" alt="">      </a>
+        <p>Payment</p> -->
+        <div class="cal" onclick="openImage()">
+            <a href="#"><img src="./Assets/Payment.png" alt=""></a>
+            <p>Payment</p>
+        </div>
+    
+        <div id="imageContainer" onclick="closeImage()">
+            <img id="fullImage" src="" alt="">
+        </div>
+    </div>
+
+</div>
+
+
+
+<br/>
+<div class="social2">
+   
+    <div class="cal1">
+        
+
+        <!-- LINKEDIN -->
+
+
+
+        <a href="">  <img src="./Assets/02.jpg" alt=""></a>
+       
+    </div>
+
+    <div class="cal1">
+
+        <!-- INSTAGRAM URL -->
+
+        <a href="https://www.instagram.com/defaultpropss/">   <img src="./Assets/05.jpg" alt="">      </a>
+  
+    </div>
+    <div class="cal1">
+
+
+        <!-- WHATSAPP NUMBER -->
+
+
+
+        <a href="https://api.whatsapp.com/send?phone=919406655515">
+            <img src="./Assets/01.jpg" alt=""></a>
+       
+    </div>
+    <div class="cal1">
+
+        <!-- TWITTER -->
+
+        <a href="./Assets/Tweeter.png">   <img src="./Assets/03.jpg" alt="">      </a>
+  
+    </div>
+    <div class="cal1">
+
+        <!-- FACEBOOK -->
+
+        <a href="https://www.facebook.com/profile.php?id=100091303867609">   <img src="./Assets/04.jpg" alt="">      </a>
+  
+    </div>
+
+</div>
+
+
+
+
+        </div>
+       
+
+    </div>
+
+
+
+    <script>
+        function openImage() {
+            var imageContainer = document.getElementById("imageContainer");
+            var fullImage = document.getElementById("fullImage");
+            
+            // Set the source of the full image
+            fullImage.src = "./Assets/100px X100px JPEG File.jpg";
+
+            // Display the image container
+            imageContainer.style.display = "flex";
+        }
+
+        function closeImage() {
+            var imageContainer = document.getElementById("imageContainer");
+
+            // Hide the image container
+            imageContainer.style.display = "none";
+        }
+    </script>
+
+    
+</body>
+</html>
